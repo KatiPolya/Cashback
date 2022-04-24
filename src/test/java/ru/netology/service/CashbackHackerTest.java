@@ -6,7 +6,7 @@ import static org.junit.Assert.*;
 
 public class CashbackHackerTest {
     @Test
-    void calculateCash900() {
+    public void calculateCash900() {
         CashbackHacker service = new CashbackHacker();
         int amount = 900;
 
@@ -16,7 +16,7 @@ public class CashbackHackerTest {
     }
 
     @Test
-    void calculateCash100() {
+    public void calculateCash100() {
         CashbackHacker service = new CashbackHacker();
         int amount = 100;
 
@@ -26,7 +26,7 @@ public class CashbackHackerTest {
     }
 
     @Test
-    void calculateCash0() {
+    public void calculateCash0() {
         CashbackHacker service = new CashbackHacker();
         int amount = 0;
 
@@ -36,7 +36,7 @@ public class CashbackHackerTest {
     }
 
     @Test
-    void calculateCash1500() {
+    public void calculateCash1500() {
         CashbackHacker service = new CashbackHacker();
         int amount = 1500;
 
@@ -47,7 +47,7 @@ public class CashbackHackerTest {
 
 
     @Test
-    void calculateCash1000() {
+    public void calculateCash1000() {
         CashbackHacker service = new CashbackHacker();
         int amount = 1000;
 
